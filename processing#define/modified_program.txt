@@ -1,0 +1,21 @@
+main()
+{
+	int i,j,n=2,a[10][10];
+	for(i=0;i&lt;n;i++)
+	{
+		for(j=0;j&lt;n;j++)
+		{
+			scanf(“%d”,&amp;a[i][j]);
+		}
+	}
+   for(i=0;i&lt;n;i++)
+  		{
+  			for(j=0;j&lt;n;j++)
+  				{
+  					printf(&quot;%d&quot;,a[i][j]);
+  				}
+  printf("value of pi is", 3.14
+
+
+}
+

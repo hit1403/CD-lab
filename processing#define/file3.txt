@@ -1,0 +1,22 @@
+#define forloop for(i=0;i&lt;n;i++)\
+		{\
+			for(j=0;j&lt;n;j++)\
+				{\
+					printf(&quot;%d&quot;,a[i][j]);\
+				}\
+		}
+#define Pi 3.14
+main()
+{
+	int i,j,n=2,a[10][10];
+	for(i=0;i&lt;n;i++)
+	{
+		for(j=0;j&lt;n;j++)
+		{
+			scanf(“%d”,&amp;a[i][j]);
+		}
+	}
+  forloop
+  printf("value of pi is",Pi);
+}
+
